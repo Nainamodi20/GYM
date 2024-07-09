@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            color: white;
+            background: url(GYM.jpg);
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Baloo Bhai';
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 5px;
+            top: 5px;
+        }
+
+        .mid {
+            /* border: 2px solid rgb(125, 7, 152); */
+            display: block;
+            width: 36%;
+            margin: 10px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            /* border: 2px solid rgb(247, 190, 0); */
+            right: 10px;
+            top: 10px;
+        }
+
+        .nav li {
+            display: inline-block;
+            
+        }
+        .nav li:hover{
+            background-color: rgb(28, 26, 26);
+        }
+        .nav li a {
+
+            margin: 8px 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        ul a:hover {
+            color: grey;
+       
+        }
+
+        img {
+            height: 50px;
+            width: 80px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .right a img {
+            width: 35px;
+            height: 35px;
+            border-radius: 4px;
+        }
+
+        .container {
+            border: 2px solid rgb(215, 234, 215);
+            margin: 40px 100px;
+            width: 35%;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .form input {
+            font-size: 18px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .container:hover {
+            background-color: rgb(33, 34, 34);
+        }
+
+        .btn {
+            cursor: pointer;
+            width: 253px;
+            font-family: 'Baloo Bhai';
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        .btn1{
+            position: absolute;
+            right: 2px;
+            bottom: 2px;
+            cursor: pointer;
+            width: 253px;
+            font-family: 'Baloo Bhai';
+            font-size: 20px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">HEALTH</a></li>
+                <li><a href="#">BMI</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="https://www.instagram.com/"><img src="Instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="facebook.ac3b465e-4384-42a8-9142-901c0405e1bc" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="YouTube.webp" alt=""></a>
+        </div>
+    </header>
+    <div class="container">
+        <h2>WELCOME</h2>
+        <form action="action.php">
+            <div class="form"><input type="text" placeholder="Enter your Name"></div>
+            <div class="form"><input type="text" placeholder="Age"></div>
+            <div class="form"> <input type="text" placeholder="Address"></div>
+            <div class="form"> <input type="text" placeholder="Number"></div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    <footer>
+        <button class="btn1">CHAT WITH US</button>
+    </footer>
+</body>
+
+</html>
